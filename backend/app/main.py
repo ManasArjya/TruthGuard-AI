@@ -30,7 +30,7 @@ app = FastAPI(
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://truth-guard-ai-six.vercel.app",""https://*.vercel.app"","http://localhost:3000","http://localhost:3001","https://truthguard-ai.vercel.app","https://truth-guard-r42kohy2s-manas-kumar-arjyas-projects.vercel.app","https://truth-guard-clkjlc4s4-manas-kumar-arjyas-projects.vercel.app",],  # Preview deployments],  # Next.js frontend (3000/3001)
+    allow_origins=["https://truth-guard-ai-six.vercel.app","https://*.vercel.app","http://localhost:3000","http://localhost:3001","https://truthguard-ai.vercel.app","https://truth-guard-r42kohy2s-manas-kumar-arjyas-projects.vercel.app","https://truth-guard-clkjlc4s4-manas-kumar-arjyas-projects.vercel.app",],  # Preview deployments],  # Next.js frontend (3000/3001)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
