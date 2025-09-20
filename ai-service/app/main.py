@@ -149,5 +149,6 @@ async def search_knowledge_base(request: RAGRequest):
 if __name__ == "__main__":
     import uvicorn
     # Use the app string for Uvicorn to allow for startup events
+    port = int(os.getenv("PORT", 8001))
     uvicorn.run("app.main:app", host="0.0.0.0", port=8001, reload=True)
     
