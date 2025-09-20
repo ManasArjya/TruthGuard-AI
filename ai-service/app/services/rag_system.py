@@ -34,7 +34,7 @@ class RAGSystem:
 
         try:
             # Load the model name from an environment variable
-            model_name = os.getenv("EMBEDDING_MODEL", 'sentence-transformers/all-MiniLM-L6-v2')
+            model_name = os.getenv("EMBEDDING_MODEL", 'sentence-transformers/all-mpnet-base-v2')
             self.embedding_model = SentenceTransformer(model_name)
             self.embeddings_enabled = True
             
