@@ -2,8 +2,8 @@ fastapi
 uvicorn[standard]
 pydantic>=2.7.4
 transformers
-torch==2.3.0+cpu
-torchvision==0.18.0+cpu
+torch==2.8.0+cpu
+torchvision==0.20.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 sentence-transformers
 python-dotenv
