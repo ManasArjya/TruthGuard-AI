@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic>=2.7.4
+transformers
+torch
+sentence-transformers
+python-dotenv
+httpx>=0.26.0
+numpy<2.0
+requests>=2.32.5
+easyocr
+opencv-python-headless
+moviepy
+beautifulsoup4
+lxml

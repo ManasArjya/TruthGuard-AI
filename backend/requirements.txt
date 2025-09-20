@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+supabase>=2.0.0
+pydantic>=2.0.0
+python-dotenv
+httpx
+python-jose[cryptography]
+python-multipart

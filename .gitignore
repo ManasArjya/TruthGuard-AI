@@ -1,0 +1,51 @@
+# -------------------------
+# Node / Next.js
+# -------------------------
+node_modules/
+.npm/
+dist/
+.next/
+out/
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -------------------------
+# Python / FastAPI
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Build / Cache
+# -------------------------
+.cache/
+coverage/
