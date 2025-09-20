@@ -76,13 +76,7 @@ export default function Navigation() {
                       <BarChart3 className="w-4 h-4" />
                       <span>Dashboard</span>
                     </Link>
-                    <Link
-                      href="/profile"
-                      className="flex items-center space-x-2 px-4 py-2 text-sm text-slate-700 hover:bg-slate-50"
-                    >
-                      <User className="w-4 h-4" />
-                      <span>Profile</span>
-                    </Link>
+                    
                     <div className="border-t border-slate-200 my-1"></div>
                     <button
                       onClick={handleSignOut}
