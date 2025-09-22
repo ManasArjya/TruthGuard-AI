@@ -4,7 +4,7 @@ pydantic>=2.7.4
 transformers
 torch==2.5.0
 torchvision==0.21.0
-torchaudio==2.5.0
+torchaudio==2.6.0
 sentence-transformers
 python-dotenv
 httpx>=0.26.0
