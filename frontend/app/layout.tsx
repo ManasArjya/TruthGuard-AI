@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'TruthGuard AI - AI-Powered Fact Checking',
   description: 'Combat misinformation with AI-powered fact-checking, community discussion, and automated verification tools.',
+  icons: {icon: "/logo.svg",},
 }
 
 export default function RootLayout({
